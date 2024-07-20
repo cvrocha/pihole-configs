@@ -16,11 +16,11 @@ Este ficheiro contém domínios que são seguros para colocar na white list, ou 
 ### COMANDOS
 
 ```
-wget https://raw.githubusercontent.com/cvrocha/pihole-configs/main/whitelist.txt -O agneev-whitelist.txt
+wget https://raw.githubusercontent.com/cvrocha/pihole-configs/main/whitelist.txt -O whitelist.txt
 
 while read domain; do
   pihole -w $domain
-done < agneev-whitelist.txt
+done < whitelist.txt
 
 pihole -g
 
