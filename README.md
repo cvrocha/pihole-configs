@@ -14,7 +14,7 @@ Uma coleção robusta de sites comumente listados em branco emprestados de vári
 Este ficheiro contém domínios que são seguros para colocar na white list, ou seja, não contém quaisquer sites de rastreio ou de publicidade. A adição deste ficheiro resolve muitos problemas, como o histórico de visualização do YouTube, vídeos em sites de notícias e assim por diante...
 
 <p align="center">
-  <img width="550" src="https://raw.githubusercontent.com/anudeepND/whitelist/master/images/logo.png">
+  <img width="550" src="https://github.com/user-attachments/assets/75a33a48-8711-4715-a6c3-dc5209a4fb9d">
 </p>    
       
 ## Domínios comuns da block-list para o Pi-Hole.
