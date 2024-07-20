@@ -16,11 +16,23 @@ Este ficheiro contém domínios que são seguros para colocar na white list, ou 
 ### COMANDOS
 
 ```
-wget https://raw.githubusercontent.com/cvrocha/pihole-configs/main/whitelist.txt -O whitelist.txt
+pihole -w google.com googleapis.com gstatic.com youtube.com ytimg.com facebook.com fbcdn.net fb.com instagram.com cdninstagram.com whatsapp.com whatsapp.net microsoft.com live.com microsoftonline.com office.com office365.com skype.com onedrive.com twitter.com twimg.com t.co linkedin.com licdn.com tiktok.com tiktokcdn.com reddit.com redd.it pinterest.com pinimg.com snapchat.com sc-cdn.net github.com githubusercontent.com youtube.com googlevideo.com manifest.googlevideo.com facebook.com fbcdn.net fbcdn.com fb.com fbsbx.com facebook.net fb.me instagram.com cdninstagram.com whatsapp.com whatsapp.net api.whatsapp.com graph.facebook.com graph.instagram.com business.facebook.com
 
-while read domain; do
-  pihole -w $domain
-done < whitelist.txt
+wget https://raw.githubusercontent.com/slyfox1186/pihole-regex/main/domains/exact-whitelist.sql -O exact-whitelist.sql
+wget https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/whitelist.txt -O whitelist.txt
+wget https://raw.githubusercontent.com/nicholasb2101/PiHole/master/Whitelists/Primary%20Whitelist.txt -O primary-whitelist.txt
+wget https://raw.githubusercontent.com/TheSmashy/O365Whitlist/main/domains/whitelist.txt -O o365-whitelist.txt
+wget https://raw.githubusercontent.com/Levi2288/AdvancedBlockList/main/Lists/whitelist.txt -O advanced-whitelist.txt
+wget https://raw.githubusercontent.com/nilsstreedain/pihole-whitelist/main/exact.txt -O exact-whitelist2.txt
+wget https://raw.githubusercontent.com/nilsstreedain/pihole-whitelist/main/regex.txt -O regex-whitelist.txt
+wget https://raw.githubusercontent.com/agneevX/whitelist/master/whitelist.txt -O agneev-whitelist.txt
+
+
+for file in whitelist.txt primary-whitelist.txt o365-whitelist.txt advanced-whitelist.txt exact-whitelist2.txt regex-whitelist.txt agneev-whitelist.txt; do
+  while read domain; do
+    pihole -w $domain
+  done < $file
+done
 
 pihole -g
 
