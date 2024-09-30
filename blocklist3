@@ -1,0 +1,44 @@
+^ad([sxv]?[ 0-9]*|sistema)[_.-]([^.[:espaço:]]+\.) {1,}|[_.-]ad([sxv]?[ 0-9]*|sistema)[_.-]
+^(.+[_.-])?adse?rv(er?|gelo)?s? [0-9]*[_.-]
+^(.+[_.-])?telemetria[_.-]
+^adim(idade|g)s? [0-9]*[_.-]
+^adtrack(er|ing)? [0-9]*[_.-]
+^advert(s|is(ing|ements?))? [0-9]*[_.-]
+^aff(iliat(es?|íon))? [_.-]
+^Analytics? [_.-]
+^Banners? [_.-]
+^Beacons? [0-9]*[_.-]
+^ conde (ers?)? [0-9]*[_.-]
+^Mads\.
+^Pixels? [-.]
+^stat(s|istics)? [0-9]*[_.-]
+^https?://([A-Za-z0-9.-]*\.)? cliques\.beap\.bc\.yahoo\.com/
+^https?://([A-Za-z0-9.-]*\.)? seguro\.footprint\.net/
+^https?://([A-Za-z0-9.-]*\.)? partida\.com/
+^https?://([A-Za-z0-9.-]*\.)? cliques\.beap\.bc\.yahoo(\.\w{2}\.\w{2}|\.\w{2,4})/
+^https?://([A-Za-z0-9.-]*\.)? sitescout(\.\w{2}\.\w{2}|\.\w{2,4})/
+^https?://([A-Za-z0-9.-]*\.)? appnexus(\.\w{2}\.\w{2}|\.\w{2,4})/
+^https?://([A-Za-z0-9.-]*\.)? evidon(\.\w{2}\.\w{2}|\.\w{2,4})/
+^https?://([A-Za-z0-9.-]*\.)? mediamath(\.\w{2}\.\w{2}|\.\w{2,4})/
+^https?://([A-Za-z0-9.-]*\.)? scorecardresearch(\.\w{2}\.\w{2}|\.\w{2,4})/
+^https?://([A-Za-z0-9.-]*\.)? doubleclick(\.\w{2}\.\w{2}|\.\w{2,4})/
+^https?://([A-Za-z0-9.-]*\.)? flashtalking(\.\w{2}\.\w{2}|\.\w{2,4})/
+^https?://([A-Za-z0-9.-]*\.)? turn(\.\w{2}\.\w{2}|\.\w{2,4})/
+^https?://([A-Za-z0-9.-]*\.)? mathtag(\.\w{2}\.\w{2}|\.\w{2,4})/
+^https?://([A-Za-z0-9.-]*\.)? googlesyndication(\.\w{2}\.\w{2}|\.\w{2,4})/
+^https?://([A-Za-z0-9.-]*\.)? s\.yimg\.com/cv/ae/us/audience/
+^https?://([A-Za-z0-9.-]*\.)? cliques\.beap/
+^https?://([A-Za-z0-9.-]*\.)?. doubleclick(\.\w{2}\.\w{2}|\.\w{2,4})/
+^https?://([A-Za-z0-9.-]*\.)? yieldmanager(\.\w{2}\.\w{2}|\.\w{2,4})/
+^https?://([A-Za-z0-9.-]*\.)? w55c(\.\w{2}\.\w{2}|\.\w{2,4})/
+^https?://([A-Za-z0-9.-]*\.)? adnxs(\.\w{2}\.\w{2}|\.\w{2,4})/
+^https?://([A-Za-z0-9.-]*\.)? publicidade\.com/
+^https?://([A-Za-z0-9.-]*\.)? evidon\.com/
+^https?://([A-Za-z0-9.-]*\.)? pesquisa de scorecard\.com/
+^https?://([A-Za-z0-9.-]*\.)? flashtalking\.com/
+^https?://([A-Za-z0-9.-]*\.)? virar\.com/
+^https?://([A-Za-z0-9.-]*\.)? mathtag\.com/
+^https?://([A-Za-z0-9.-]*\.)? surveylink/
+^https?://([A-Za-z0-9.-]*\.)? informações\.yahoo\.com/
+^https?://([A-Za-z0-9.-]*\.)? anúncios\.yahoo\.com/
+^https?://([A-Za-z0-9.-]*\.)? global\.ard\.yahoo\.com/
